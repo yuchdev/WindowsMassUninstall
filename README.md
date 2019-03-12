@@ -6,7 +6,7 @@ leads to installation of numerous add-ons and applications, which were not expli
 Selecting only C++ compiler for installation, you will definitely receive Microsoft SQL Server Compact (Developer) Edition.
 This applicable to any software distributions, consist of multiple packages.
 
-This script releases you of this monotonous work. For your convenience, you can read a list of all installed application, to know their actual names:
+This script releases you from this monotonous work. For your convenience, you can read a list of all installed application, to know their actual names:
 
 `win_mass_uninstall.py --installed-apps > applications.txt`
 
