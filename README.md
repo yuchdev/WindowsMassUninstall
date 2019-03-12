@@ -2,7 +2,7 @@
 
 Sometimes you need to uninstall a lot of applications. 
 For example, installing any Microsoft Visual Studio, even in minimal configuration, 
-leads to installation to numerous add-ons and applications, which were not explicitly selected for installation.
+leads to installation of numerous add-ons and applications, which were not explicitly selected for installation.
 Selecting only C++ compiler for installation, you will definitely receive Microsoft SQL Server Compact (Developer) Edition.
 This applicable to any software distributions, consist of multiple packages.
 
