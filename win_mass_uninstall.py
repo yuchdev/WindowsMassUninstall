@@ -65,7 +65,8 @@ class WinUninstallApplication:
         if app not in self.known_applications:
             logger.warning("Application \"%s\" is not installed or not recognized" % app)
             return
-        os.popen(WinUninstallApplication.WMIC_UNINSTALL_COMMAND.format(app))
+        logger.info("Uninstall {0}".format(app))
+        os.system(WinUninstallApplication.WMIC_UNINSTALL_COMMAND.format(app))
 
     @staticmethod
     def read_from_file(file_name):
